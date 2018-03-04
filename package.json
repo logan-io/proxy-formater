@@ -1,0 +1,14 @@
+{
+  "name": "formater",
+  "version": "1.0.1",
+  "description": "Automatically formats bettween the 2 different ways proxies can be used",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "Loganio",
+  "license": "ISC"
+}
