@@ -34,5 +34,5 @@ Paste all your proxies into proxies.txt then:
 node index
 ```
 
-Check done.text
+Check done.txt
 
