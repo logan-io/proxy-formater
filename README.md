@@ -1,9 +1,9 @@
 
-##Proxy Formater
+## Proxy Formater
 
 Formats proxies
 
-###Example: 
+### Example: 
 ```
 1. http://user:pass@127.121.115.3:23082
 2. http://127.121.114.3:23082
@@ -27,7 +27,7 @@ git clone https://github.com/logan-io/proxy-formater.git
 cd proxy-formater
 
 ```
-###After installing:
+### After installing:
 Paste all your proxies into proxies.txt then:
 
 ```
