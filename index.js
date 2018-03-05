@@ -30,10 +30,10 @@ function format() {
             }else if(proxy[i].indexOf("http://") == -1) { // Format with http:// and @ ex: http://user:pass@127.121.115.3:23082 (user:pass optional)
             if(g > 3) { // Means it has user:pass
                 var userPassSplit = proxy[i].split(":")
-                var formated = "http://" + userPassSplit[2] + ":" + userPassSplit[3] + "@" + userPassSplit[0] + ":" + userPassSplit[1]
+                var formated = '"http://' + userPassSplit[2] + ":" + userPassSplit[3] + "@" + userPassSplit[0] + ":" + userPassSplit[1] + '"'
             }else { //No user pass :O
                 var userPassSplit = proxy[i].split(":")
-                var formated = "http://" + userPassSplit[0] + ":" + userPassSplit[1]
+                var formated = '"http://' + userPassSplit[0] + ":" + userPassSplit[1] + '"'
             }
         }
         finished.push(formated)
