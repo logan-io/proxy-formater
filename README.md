@@ -8,7 +8,7 @@ Formats proxies
 1. http://user:pass@127.121.115.3:23082
 2. http://127.121.114.3:23082
 3. 127.121.115.3:23082:user:pass
-4. http://127.121.114.3:23082
+4. 127.121.114.3:23082
 
 Will be formated to:
 
