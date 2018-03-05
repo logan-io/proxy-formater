@@ -25,6 +25,7 @@ Paste any amount of proxies into proxies.txt and run script. They will all be pr
 cd desktop
 git clone https://github.com/logan-io/proxy-formater.git
 cd proxy-formater
+npm install # sudo npm install if you're on macOS
 
 ```
 ### After installing:
